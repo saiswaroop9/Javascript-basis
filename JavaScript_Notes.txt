@@ -1,0 +1,36 @@
+#VAR, LET and CONST
+var: In this variable can be re-declared and also it can be updated.
+Let: Here variable cannot be re-declared but it can be updated.
+Const: And here variables are cannot be re-declared nor updated. They are unchanged. 
+
+#Primitive dataType: memory allocation is in stack 
+
+- String
+- Number
+- Boolean
+- Null
+- Undefined
+- Symbol 
+
+
+#Ref dataType: The memory allocation of the ref dataType are stored in heap
+
+1. functions,
+2. array
+3. Object Literals
+4. Date
+
+--> If you wanted to know the which type of the datatype is defined, This can we know by using typeof operator 
+
+#typeConversion 
+- String
+- Number
+- parsInt
+- parsFloat
+- .tofixed
+
+#Coercion
+ comparing/add/subtract/divide/multiple : string and Number
+
+# How to concatenate? 
+something.concat() : Here using concat, You can join the multiple sting for the same line.
