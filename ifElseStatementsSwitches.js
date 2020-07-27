@@ -1,4 +1,4 @@
-/*
+
 const age = 30;
 
 if(age==28)
@@ -32,7 +32,6 @@ if(HehasDuke200 || drink){
     console.log("He is not bike rider");
 }
 
-*/
 let ihavePhone = true;
 let ihaveBike = true;
 let iAmHome = false;
@@ -42,3 +41,27 @@ if(ihavePhone && ihaveBike || iAmHome){
 }else{
     console.log("Good ");   
 }
+//Termintor operator
+ console.log(age == 27? "Age is 27": "Age is not 27");
+
+ const age = 17;
+ 
+ if(age === 27? 7)
+
+                    /* Switch case statement*/
+const age = 108;
+switch(age){
+    case 18:
+        console.log("Age is 18");
+        break;// if you use the break operator only 1 case in the method wil be executed  
+    case 28:
+        console.log("Age is 28");
+        break;
+    case 38:
+        console.log("Age is 38");
+        break;
+    default:
+        console.log("you are unknown");
+        break;
+}
+
